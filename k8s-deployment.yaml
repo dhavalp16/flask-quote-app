@@ -14,7 +14,7 @@ spec:
     spec:
       containers: 
       - name: quote-container
-        image: flask-quote-app:latest
+        image: dhavalp16/flask-quote-app:latest
         imagePullPolicy: IfNotPresent
         ports: 
         - containerPort: 5000
